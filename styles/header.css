@@ -68,6 +68,20 @@
     display: none;
 }
 
+.container__botao:checked~.container__rotulo > .cabecalho__menu__hamburguer {
+    background-color: var(--azul-fundo);
+    background-image: url("/assets/Menu Aberto.svg");
+}
+
+.lista-menu__item:hover {
+    background-color: var(--azul-fundo);
+}
+
+.lista-menu__link:hover {
+    color:  var(--branco);
+}
+
+
 
 @media screen and ( min-width: 1024px ) {
 
