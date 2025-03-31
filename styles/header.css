@@ -11,10 +11,6 @@
     align-items: center;
 }
 
-.container__botao:checked~.opcoes__rotulo > .cabecalho__menu__hamburguer {
-    background-image: url("/assets/Menu Aberto.svg");
-}
-
 .cabecalho__menu__hamburguer {
     width: 24px;
     height: 24px;
