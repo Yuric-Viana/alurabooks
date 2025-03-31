@@ -1,0 +1,73 @@
+.visitados {
+    background-color: var(--azul-fundo);
+    padding-bottom: 1px;
+}
+
+.visitados__titulo {
+    text-align: center;
+    padding: 2em 0 0 0;
+    color: var(--branco);
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.topicos__lista {
+    display: flex;
+    justify-content: center;
+    gap: .8em;
+    margin: 3.5em 0;
+    flex-wrap: wrap;
+}
+
+.topicos__lista__item {
+    margin: 1.2em 0;
+}
+
+.topicos__lista__link {
+    text-decoration: none;
+    padding: 1em;
+    color: var(--branco);
+    background-color: var(--laranja);
+}
+
+@media screen and ( min-width: 1024px ) {
+  
+    .visitados {
+        padding: 0 20vw 3em 20vw;
+        margin-top: 5em;
+    }
+
+    .visitados__titulo {
+        font-size: 24px;
+        margin-bottom: 2em;
+    }
+
+    .topicos__lista {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        gap: 1.1em;
+    }
+
+    .topicos__lista__item {
+        padding: .2em;
+        padding-top: 1em;
+    }
+
+    .topicos__lista__link {
+        font-size: 24px;
+    }
+}
+
+@media screen and ( min-width: 1728px ) {
+    
+    .visitados__titulo {
+        font-size: 32px;
+        margin-bottom: 1em;
+    }
+
+    .visitados {
+        padding: 0 20vw;
+        padding-bottom: 5em;
+    }
+}
